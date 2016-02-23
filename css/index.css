@@ -1,0 +1,219 @@
+/*--css style for all php files--*/
+
+/*global style*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--css style for header--*/
+header h1 {
+    background-color: #98dafc;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: .2em 0 .2em 0;
+}
+
+.header_menu {
+    background-color: #daad86;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0; 
+    padding: .2em 0 .2em 0;
+    clear: both;
+}
+
+.header_menu ul { 
+    list-style: none; 
+} 
+
+.header_menu ul li { 
+    display: inline;
+    padding: .2em 1em .2em 1em; 
+} 
+
+.header_menu ul a:link, a:visited, a:hover{ 
+    margin: 0; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+    color: #ffffff; 
+} 
+
+.header_menu ul a:hover{ 
+    color: #ffffff; 
+    background-color: #c37b3c; 
+}
+
+/*--css style for footer--*/
+footer {
+    background-color: #98dafc;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: .2em 0 .2em 0;
+    clear: both; 
+}
+
+/*--css style for index.php content--*/
+.content, .tour, .recognize {
+    margin: 20px;
+}
+
+.content img {
+    max-width: 47%;
+    height: auto;
+    margin-right: 2em;
+    float: left;
+    clear: left;
+}
+
+.content p, .content h2, .content h1 {
+    color: #312c32;
+    display: inline;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    clear: left;
+}
+
+
+/*--css style for sprj.php & hprj.php content--*/
+.tour, .recognize, .microwave, .pcb {
+    margin: 20px;
+    text-align: center;
+}
+
+.tour p, .tour h2, .tour h1, .recognize p, .recognize h1, .recognize h2
+.microwave p, .microwave h2, .microwave h1, .pcb p, .pcb h1, .pcb h2 {
+    color: #312c32;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.skill_list h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: #312c32;
+    clear: both;
+} 
+
+.skill_list li {
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    width: 90px;
+    height: 50px;
+    background-color: #c37b3c;
+    -moz-border-radius: 60px / 40px;
+    -webkit-border-radius: 60px / 40px;
+    border-radius: 60px / 40px;
+    clear: both;
+}
+
+.skill_list li:hover {
+    background-color: #daad86;
+}
+
+.skill_check input[type=checkbox] {
+    margin: 0 55px 0 55px;
+    width: 20px;
+    height: 20px;
+    clear: both;
+}
+
+.skill_check input[type=submit]  {
+    background-color: #98dafc;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    clear: both;
+}
+.skill_check input[type=submit]:hover {
+    background-color: #3399ff;
+}
+
+.check_result {
+    color: #312c32;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    clear: both;
+}
+
+/*--css style for contact.php content--*/
+#contact_info {
+    color: #312c32;
+    display: block;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+}
+
+#send_message {
+    color: #312c32;
+    float: left;
+    width: 45%;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin: 20px 50px 20px 50px;
+}
+
+#message_info {
+    overflow: auto;
+    color: #312c32;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin: 20px 50px 20px 0;
+}
+
+.error {
+    color: #ff1a1a;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+#send_message input[type=text], input[type=email], textarea{
+    width: 95%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#send_message input[type=submit] {
+    background-color: #daad86;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 8px 8px 8px 8px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#send_message input[type=submit]:hover {
+    background-color: #c37b3c;
+}
+
